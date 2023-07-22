@@ -1,4 +1,4 @@
-package ru.geekbrains.ose;
+package ru.geekbrains.ose.HomeWork01;
 
 public class BottleOfWater extends Product{
     private int volume;

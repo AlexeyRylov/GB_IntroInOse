@@ -1,4 +1,4 @@
-package ru.geekbrains.ose;
+package ru.geekbrains.ose.HomeWork01;
 
 import java.util.*;
 
@@ -22,8 +22,8 @@ public class HomeWork01 {
         System.out.print("Поиск в автомате напитка Tea: " + machine1.getProduct("Tea") + "\n");
         //System.out.print("Поиск в автомате напитка Beer: " + machine1.getProduct("Beer") + "\n");
 
-        //System.out.print("Поиск в автомате напитка Tea по цене 5 c температурой 50: " + machine1.getProduct("Tea", 5.0, 50) + "\n");
-        System.out.print("Поиск в автомате напитка Tea по цене 100 c температурой 50: " + machine1.getProduct("Tea", 100.0, 50) + "\n");
+        System.out.print("Поиск в автомате напитка Tea по цене 5 c температурой 50: " + machine1.getProduct("Tea", 5.0, 50) + "\n");
+        //System.out.print("Поиск в автомате напитка Tea по цене 100 c температурой 50: " + machine1.getProduct("Tea", 100.0, 50) + "\n");
         //System.out.print("Поиск в автомате напитка Beer по цене 5 c температурой 50: " + machine1.getProduct("Beer", 5.0, 50) + "\n");
 
 

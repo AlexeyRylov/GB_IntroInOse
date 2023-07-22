@@ -1,4 +1,4 @@
-package ru.geekbrains.ose;
+package ru.geekbrains.ose.HomeWork01;
 import java.util.List;
 public interface VendingMachine {
     Product getProduct(String name) throws IllegalStateException;

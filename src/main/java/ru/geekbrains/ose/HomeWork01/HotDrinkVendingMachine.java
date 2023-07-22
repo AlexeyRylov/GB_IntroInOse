@@ -1,4 +1,4 @@
-package ru.geekbrains.ose;
+package ru.geekbrains.ose.HomeWork01;
 
 import java.util.ArrayList;
 import java.util.List;
