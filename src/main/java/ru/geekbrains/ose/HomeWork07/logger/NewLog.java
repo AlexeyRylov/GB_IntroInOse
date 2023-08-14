@@ -11,7 +11,7 @@ public class NewLog implements NewCalculator {
         this.writeLog = writeLog;
     }
     @Override
-    public Calculations create(double number){
-        return new CalculationLog(new Controller(number), writeLog);
+    public Calculations create(double x1, double x2){
+        return new CalculationLog(new Controller(x1, x2), writeLog);
     }
 }

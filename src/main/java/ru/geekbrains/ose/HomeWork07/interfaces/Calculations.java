@@ -1,9 +1,9 @@
 package ru.geekbrains.ose.HomeWork07.interfaces;
 
 public interface Calculations {
-    Calculations add(double num);
-    Calculations sub(double num);
-    Calculations mul(double num);
-    Calculations div(double num);
-    double getResult();
+    Calculations add(double y1, double y2);
+    Calculations sub(double y1, double y2);
+    Calculations mul(double y1, double y2);
+    Calculations div(double y1, double y2);
+    double[] getResult();
 }
